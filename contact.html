@@ -1,141 +1,135 @@
-<!doctype html>
+<!DOCTYPE html>
 <html>
-	<head>
-		<meta charset="utf-8">
-		<title>Блог о моем городе</title>
-		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<link rel="stylesheet" href="./bt.css">
-		<link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&amp;subset=cyrillic" rel="stylesheet">
-		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-		<link rel="stylesheet" href="./style.css">
-	</head>
-	<body>
-		<div class="scroll-to-top"><a href="#home" class="scroll-to-target"><i class="fa fa-chevron-up" aria-hidden="true"></i></a></div>
-		<div class="social-widget">
-			<ul>
-				<li><a href="#" class="social-vk"><i class="fa fa-vk" aria-hidden="true"></i></a></li>
-				<li><a href="#" class="social-fb"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
-				<li><a href="#" class="social-google"><i class="fa fa-google-plus" aria-hidden="true"></i></a></li>
-			</ul>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Блог о моем Городе</title>
+	<link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&amp;subset=cyrillic" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="./bt.css">
+	<link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+	<div class="social-networks">
+		<ul>
+			<li><a href="#" class="network-vk"><i class="fa fa-vk" aria-hidden="true"></i></a></li>
+			<li><a href="#" class="network-fb"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+			<li><a href="#" class="network-google"><i class="fa fa-google-plus" aria-hidden="true"></i></a></li>
+		</ul>
+	</div>
+	<header class="home inner-page" id="home">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12">
+					<div class="header-nav">						
+							<div class="service-button service-button-humburger">
+								<nav class="main-nav">
+									<a href="index.html" class="main-nav-link">Главная</a>
+									<a href="#" class="main-nav-link">Блог</a>
+									<a href="#" class="main-nav-link">О&nbsp;нас</a>
+									<a href="contact.html" class="main-nav-link">Контакты</a>
+								</nav>
+								<div class="humburger">
+									<span></span>
+									<span></span>
+									<span></span>
+								</div>
+							</div>
+							<div class="service-button service-button-search">
+								<input type="text" name="search" placeholder="поиск">	
+							</div>						
+					</div>	
+				</div>
+			</div>
 		</div>
-		<header class="home-header">
-			<div class="container">
-				<div class="row">
-					<div class="col-md-12">
-						<div class="header-nav">
-							<div class="service-container">
-								<div class="service-button button-humburger">
-									<div class="humburger">
-										<span></span>
-										<span></span>
-										<span></span>
-									</div>
-									<nav class="main-nav">
-										<a href="index.html">Главная</a>
-										<a href="#">Блог</a>
-										<a href="#">О нас</a>
-										<a href="contact.html">Контакты</a>
-									</nav>
-								</div>
-								<div class="service-button button-search">
-									<input type="text" name="search" placeholder="поиск">
-								</div>
-							</div>
-						</div>
-					</div>
+		<div class="home-groupe-center">
+				<div class="home-logo">
+					<img src="./img/logo.png">
 				</div>
+				<div class="home-heading">
+					<h1>Контакты</h1>
+				</div>				
 			</div>
-		</header>
-		<main>
-			
-			<section class="home inner-page" id="home">
-				<div class="container">
-					<div class="row">
-						<div class="col-md-12">
-							<div class="home-logo">
-								<img src="./img/logo.png" alt="Our logo">
-							</div>
-							<div class="home-heading">
-								<h1>Контакты</h1>
-							</div>
-						</div>
-					</div>
-				</div>
-			</section>
-
-			<div class="container">
-				<div class="row">
-					<div class="col-md-4 col-md-push-8">
-						<aside class="sidebar">
-							<section class="sidebar-nav">
-								<h3>Свежие записи﻿</h3>
-								<ul class="nav-items">
-									<li>
-										<a href="#" class="items-link">Последняя новость</a>
-									</li>
-									<li>
-										<a href="#" class="items-link">Последняя новость</a>
-									</li>
-									<li>
-										<a href="#" class="items-link">Последняя новость</a>
-									</li>
-								</ul>
-							</section>
-							<section class="sidebar-nav">
-								<h3>Свежие записи﻿</h3>
-								<ul class="nav-items">
-									<li>
-										<a href="#" class="items-link">Последняя новость</a>
-									</li>
-									<li>
-										<a href="#" class="items-link">Последняя новость</a>
-									</li>
-									<li>
-										<a href="#" class="items-link">Последняя новость</a>
-									</li>
-								</ul>
-							</section>
-							<section class="sidebar-widget">
-								<!-- Slider -->
-							</section>
-						</aside>
-					</div>
-					<div class="col-md-8 col-md-pull-4">
-						<section class="content-section">
-							<h2>Форма обратной связи</h2>
-							<div class="row">
-								<div class="col-md-9">
-									<form class="callback-form" action="javascript: void(null);" method="post">
-										<div class="item-group">
-											<i class="fa fa-user-o" aria-hidden="true"></i>
-											<input class="input-user" type="text" name="name" placeholder="Ваше имя" required="required">
-										</div>
-										<div class="item-group">
-											<i class="fa fa-envelope-o" aria-hidden="true"></i>
-											<input class="input-email" type="email" name="email" placeholder="Ваш email" required="required">
-										</div>
-										<div class="item-group">
-											<i class="fa fa-comment-o" aria-hidden="true"></i>
-											<textarea class="textarea-message" name="message" cols="30" rows="4" placeholder="Ваше сообщение"></textarea>
-										</div>
-										<div class="item-group">
-											<i class="fa fa-paper-plane-o" aria-hidden="true"></i>
-											<button class="button-submit">Отправить</button>
-										</div>
-									</form>
-								</div>
-							</div>
+	</header>
+	<main>
+		<div class="container">
+			<div class="row">
+				<div class="col-md-4 col-md-push-8">
+					<aside class="sidebar">
+						<section class="sidebar-groups">
+							<h3>Свежие записи</h3>
+							<ul class="nav-groups">
+								<li>
+									<a href="#" class="nav-link">Последняя новость</a>
+								</li>
+								<li>
+									<a href="#" class="nav-link">Последняя новость</a>
+								</li>
+								<li>
+									<a href="#" class="nav-link">Последняя новость</a>
+								</li>
+							</ul>
 						</section>
-					</div>
+						<section class="sidebar-groups">
+							<h3>Свежие записи</h3>
+							<ul class="nav-groups">
+								<li>
+									<a href="#" class="nav-link">Последняя новость</a>
+								</li>
+								<li>
+									<a href="#" class="nav-link">Последняя новость</a>
+								</li>
+								<li>
+									<a href="#" class="nav-link">Последняя новость</a>
+								</li>
+							</ul>
+						</section>
+						<section class="sidebar-groups">
+							<h3>Свежие записи</h3>
+							<ul class="nav-groups">
+								<li>
+									<a href="#" class="nav-link">Последняя новость</a>
+								</li>
+								<li>
+									<a href="#" class="nav-link">Последняя новость</a>
+								</li>
+								<li>
+									<a href="#" class="nav-link">Последняя новость</a>
+								</li>
+							</ul>
+						</section>
+					</aside>
+				</div>
+				<div class="col-md-6 col-md-pull-4">
+					<form class="callback-form" action="" method="post">
+						<h2>Форма обратной связи</h2>
+						<div class="callback-icon">
+							<i class="fa fa-user-o" aria-hidden="true"></i>
+						</div>
+						<input type="text" class="callback-input" placeholder="Ваше имя" name="callback-name" required="required">
+
+						<div class="callback-icon">
+							<i class="fa fa-envelope-o" aria-hidden="true"></i>
+						</div>
+						<input type="email" class="callback-input" placeholder="Ваш email" name="callback-email" required="required">
+
+						<div class="callback-icon">
+							<i class="fa fa-comment-o" aria-hidden="true"></i>
+						</div>
+						<textarea name="callback-text" cols="30" rows="4" class="callback-area" placeholder="Ваше сообщение"></textarea>
+
+						<div class="callback-icon">
+							<i class="fa fa-paper-plane" aria-hidden="true"></i>
+						</div>
+						<button class="submit">Отправить</button>	
+					</form>
 				</div>
 			</div>
-
-		</main>
-		<footer class="home-footer">
-			<p>© 2017 | Our blog</p>
-		</footer>
-
-
-		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
-	</body>
+		</div>
+	</main>
+	<footer class="home-footer">
+		<p>© 2017 | Our blog</p>
+	</footer>
+</body>
 </html>
+
